@@ -21,7 +21,7 @@ jobs:
     - name: Prepare Environment
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version}}
+        node-version: ${{ matrix.node-version }}
     
     - name: Acquire Audits
       uses: actions/checkout@v2
