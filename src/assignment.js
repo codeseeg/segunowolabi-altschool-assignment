@@ -40,9 +40,18 @@ assignment.sumOfNumbers = sumOfNumbers;
  */
 function countEvenNumbers(arrayOfNumbers) {
   
-  
+ 
+  let number = [] ;
 
-let number = arrayOfNumbers.filter(num=> num%2 === 0);
+for(let i of arrayOfNumbers) 
+  if(i  % 2 === 0) {
+    number.push(i);
+  } 
+    
+
+
+
+
 
   
     return number.length;
